@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>In D🐾gs We Trust</title>
+  <meta name="description" id="meta-description" content="Tips para tener una mejor versión de tu perro." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="In D🐾gs We Trust" />
+  <meta property="og:title" id="og-title" content="In D🐾gs We Trust" />
+  <meta property="og:description" id="og-description" content="Tips para tener una mejor versión de tu perro." />
+  <meta property="og:url" id="og-url" content="" />
+  <meta property="og:image" content="https://indogswetrust.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" id="tw-title" content="In D🐾gs We Trust" />
+  <meta name="twitter:description" id="tw-description" content="Tips para tener una mejor versión de tu perro." />
+  <meta name="twitter:image" content="https://indogswetrust.com/assets/og-image.jpg" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__brand">In D🐾gs We Trust</a>
+      <div class="navbar__actions">
+        <button class="search-toggle" id="search-toggle" aria-label="Abrir buscador">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="7" />
+            <line x1="17" y1="17" x2="22" y2="22" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="search-panel" id="search-panel" aria-hidden="true">
+    <div class="search-panel__inner">
+      <div class="search-bar">
+        <span class="search-bar__icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="7" />
+            <line x1="17" y1="17" x2="22" y2="22" />
+          </svg>
+        </span>
+        <input type="text" class="search-bar__input" id="search-input" placeholder="Buscar..." autocomplete="off" />
+        <button class="search-bar__close" id="search-close" aria-label="Cerrar buscador">✕</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="post-stripe"></div>
+
+  <header class="post-header">
+    <div class="container">
+      <a href="index.html" class="post-header__back">← Volver</a>
+      <h1 class="post-header__title" id="post-title">Cargando…</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="post-body">
+      <section class="post-section post-section--tip animate-in animate-in--delay-1">
+        <p class="post-section__text" id="post-tip"></p>
+      </section>
+      <section class="post-section post-section--why animate-in animate-in--delay-2">
+        <span class="post-section__label">¿Por qué?</span>
+        <p class="post-section__text" id="post-why"></p>
+      </section>
+    </div>
+    <nav class="post-nav" id="post-nav" aria-label="Navegación entre posts"></nav>
+  </main>
+
+  <footer class="footer">
+    <p>Hecho con ❤️ by <a href="https://github.com/estebanzarate" target="_blank" rel="noopener">Esteban Zárate</a></p>
+  </footer>
+
+  <script src="assets/js/post.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/shortcuts.js"></script>
+</body>
+
+</html>
