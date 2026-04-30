@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": 1,
+    "slug": "tu-perro-esta-sano?",
+    "title": "¿Tu perro está sano?",
+    "tip": "Llevalo al veterinario regularmente. Observá como se comporta, si come, que tanto come, el nivel de energía o cualquier cambio que te indique un problema de salud.",
+    "why": "No solo para detectar problemas de salud a tiempo, sino para que esté dispuesto a aprender lo que quieras enseñarle. Si le duele algo o no se siente bien, no va a querer aprender nada, ni siquiera a sentarse o le cueste mucho, sufra y no te estés dando cuenta."
+  }
+]
