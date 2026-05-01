@@ -191,7 +191,7 @@ async function loadPosts() {
 
   } catch (error) {
     console.error('Error cargando posts:', error);
-    grid.innerHTML = `<div class="empty-state"><p>No se pudieron cargar los consejos.</p></div>`;
+    grid.innerHTML = `<div class="empty-state"><p>Algo salió mal. Intentá de nuevo más tarde.</p></div>`;
   }
 }
 
