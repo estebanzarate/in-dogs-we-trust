@@ -19,5 +19,12 @@
     "title": "No todo es amor",
     "tip": "Primero ejercicio, segundo disciplina (reglas, fronteras y límites) y tercero amor.",
     "why": "El amor por sí solo no basta, de hecho podemos causarle mucho daño expresandoles constantemente amor de la forma en que lo hacemos con las personas. El amor en momentos inadecuados, como cuando hacen algo que no queremos, puede reforzar esa conducta. El amor es importante, pero no es lo único que necesitan y el órden en que se lo damos también es esencial para que tenga el efecto que esperamos."
+  },
+  {
+    "id": 4,
+    "slug": "ejercicio",
+    "title": "Ejercicio",
+    "tip": "Sacalo a pasear TODOS los días",
+    "why": " Por lo menos 30 minutos, en lo posible 1 hora y si son dos veces mejor. Todo depende de la raza, tamaño, energía y edad. No sirve que solo se la pase corriendo por el patio."
   }
 ]
