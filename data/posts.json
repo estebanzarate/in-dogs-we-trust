@@ -4,27 +4,34 @@
     "slug": "tu-perro-esta-sano?",
     "title": "¿Tu perro está sano?",
     "tip": "Llevalo al veterinario regularmente. Observá como se comporta, si come, que tanto come, el nivel de energía o cualquier cambio que te indique un problema de salud.",
-    "why": "No solo para detectar problemas de salud a tiempo, sino para que esté dispuesto a aprender lo que quieras enseñarle. Si le duele algo o no se siente bien, no va a querer aprender nada, ni siquiera a sentarse o le cueste mucho, sufra y no te estés dando cuenta. Mejor asegurarse de que ningún problema de salud está interfiriendo en su conducta."
+    "content": "No solo para detectar problemas de salud a tiempo, sino para que esté dispuesto a aprender lo que quieras enseñarle. Si le duele algo o no se siente bien, no va a querer aprender nada, ni siquiera a sentarse o le cueste mucho, sufra y no te estés dando cuenta. Mejor asegurarse de que ningún problema de salud está interfiriendo en su conducta."
   },
   {
     "id": 2,
     "slug": "satisfacer-sus-necesidades",
     "title": "Satisfacer sus necesidades",
     "tip": "Satisfacé sus necesidades",
-    "why": "Antes de pensar lo que querés de tu perro, pensá lo que tu perro necesita. Una vez satisfechas sus necesidades, va a querer satisfacer las tuyas, lo que vos esperás de él."
+    "content": "Antes de pensar lo que querés de tu perro, pensá lo que tu perro necesita. Una vez satisfechas sus necesidades, va a querer satisfacer las tuyas, lo que vos esperás de él."
   },
   {
     "id": 3,
     "slug": "no-todo-es-amor",
     "title": "No todo es amor",
     "tip": "Primero ejercicio, segundo disciplina (reglas, fronteras y límites) y tercero amor.",
-    "why": "El amor por sí solo no basta, de hecho podemos causarle mucho daño expresandoles constantemente amor de la forma en que lo hacemos con las personas. El amor en momentos inadecuados, como cuando hacen algo que no queremos, puede reforzar esa conducta. El amor es importante, pero no es lo único que necesitan y el órden en que se lo damos también es esencial para que tenga el efecto que esperamos."
+    "content": "El amor por sí solo no basta, de hecho podemos causarle mucho daño expresandoles constantemente amor de la forma en que lo hacemos con las personas. El amor en momentos inadecuados, como cuando hacen algo que no queremos, puede reforzar esa conducta. El amor es importante, pero no es lo único que necesitan y el órden en que se lo damos también es esencial para que tenga el efecto que esperamos."
   },
   {
     "id": 4,
     "slug": "ejercicio",
     "title": "Ejercicio",
     "tip": "Sacalo a pasear TODOS los días",
-    "why": " Por lo menos 30 minutos, en lo posible 1 hora y si son dos veces mejor. Todo depende de la raza, tamaño, energía y edad. No sirve que solo se la pase corriendo por el patio."
+    "content": " Por lo menos 30 minutos, en lo posible 1 hora y si son dos veces mejor. Todo depende de la raza, tamaño, energía y edad. No sirve que solo se la pase corriendo por el patio."
+  },
+  {
+    "id": 5,
+    "slug": "disciplina",
+    "title": "Disciplina",
+    "tip": "Enseñale reglas claras, sencillas y se SIEMPRE coherente con ellas",
+    "content": "Las reglas no les molestan. Ellos necesitan saber que lugar ocupan en su manada y nosotros somos su manada."
   }
 ]

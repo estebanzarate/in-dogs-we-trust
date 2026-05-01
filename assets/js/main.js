@@ -136,7 +136,7 @@ function getFilteredPosts() {
   return allPosts.filter(p =>
     p.title.toLowerCase().includes(q) ||
     p.tip.toLowerCase().includes(q) ||
-    p.why.toLowerCase().includes(q)
+    p.content.toLowerCase().includes(q)
   );
 }
 

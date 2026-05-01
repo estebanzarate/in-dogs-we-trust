@@ -23,7 +23,7 @@ function applyPostColors(index) {
 }
 
 function renderError(message) {
-  document.getElementById('post-title').textContent = 'Post no encontrado';
+  document.getElementById('post-title').textContent = 'Página no encontrada';
   document.querySelector('.post-body').innerHTML = `
     <div class="empty-state">
       <p>${message}</p>
@@ -61,7 +61,7 @@ async function loadPost() {
   const slug = params.get('slug');
 
   if (!slug) {
-    renderError('No se especificó ningún post.');
+    renderError('Algo salió mal. Intentá de nuevo más tarde.');
     return;
   }
 
@@ -75,7 +75,7 @@ async function loadPost() {
     const index = sorted.findIndex(p => p.slug === slug);
 
     if (index === -1) {
-      renderError(`No existe un post con el identificador "${slug}".`);
+      renderError('Algo salió mal. Intentá de nuevo más tarde.');
       return;
     }
 
@@ -96,7 +96,7 @@ async function loadPost() {
     if (metaDesc) metaDesc.setAttribute('content', ogDesc);
     document.getElementById('post-title').textContent = post.title;
     document.getElementById('post-tip').textContent = post.tip;
-    document.getElementById('post-why').textContent = post.why;
+    document.getElementById('post-content').textContent = post.content;
 
     applyPostColors(index);
     renderNav(sorted, index);
@@ -109,7 +109,7 @@ async function loadPost() {
 
   } catch (error) {
     console.error('Error cargando el post:', error);
-    renderError('Ocurrió un error al cargar el post.');
+    renderError('Algo salió mal. Intentá de nuevo más tarde.');
   }
 }
 
