@@ -540,7 +540,7 @@ mark {
   background: var(--primary);
 }
 
-.post-section--why {
+.post-section--content {
   background: var(--dark);
   border-top: 4px solid var(--success);
 }
@@ -563,7 +563,7 @@ mark {
   font-weight: 600;
 }
 
-.post-section--why .post-section__text {
+.post-section--content .post-section__text {
   font-size: 1rem;
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.92);
@@ -600,6 +600,44 @@ mark {
   background: var(--dark);
   color: var(--light);
   border-color: var(--dark);
+}
+
+
+.post-share {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 0 40px;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--light);
+  background: var(--dark);
+  border: 1.5px solid var(--dark);
+  border-radius: var(--radius-md);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.share-btn:hover {
+  background: transparent;
+  color: var(--dark);
+}
+
+.share-feedback {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--success);
+  transition: opacity var(--transition);
 }
 
 .help-toggle {
