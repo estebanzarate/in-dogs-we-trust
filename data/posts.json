@@ -46,5 +46,14 @@
     "content": [
       "Las reglas no les molestan. Ellos necesitan saber que lugar ocupan en su manada y nosotros somos su manada."
     ]
+  },
+  {
+    "id": 6,
+    "slug": "la-correa",
+    "title": "La correa",
+    "tip": "La correa siempre va en lo más alto del cuello",
+    "content": [
+      "Así el perro tiene menos control sobre la situación, solo cuando la correa está en lo más alto del cuello avanza cuando estamos caminando con ellos."
+    ]
   }
 ]
