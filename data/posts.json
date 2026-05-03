@@ -17,7 +17,8 @@
     "content": [
       "Antes de pensar lo que querés de tu perro, pensá lo que tu perro necesita. Una vez satisfechas sus necesidades, va a querer satisfacer las tuyas, lo que vos esperás de él.",
       "Por eso, es tan importante saber el por qué fueron creadas las distintas razas, o si tenés un mestizo, saber que razas tiene en su ADN para entender sus necesidades. Por ejemplo, un perro de caza va a necesitar más ejercicio que un perro de compañía.",
-      "Buscá información en internet sobre la raza de tu perro, o si es mestizo, sobre las razas que tiene en su ADN para entender sus necesidades y satisfacerlas."
+      "Buscá información en internet sobre la raza de tu perro, o si es mestizo, sobre las razas que tiene en su ADN para entender sus necesidades y satisfacerlas.",
+      "Un perro sorprendentemente es un perro, NO UNA PERSONA. Lamentablemente muchos no entienden algo tan simple y no se dan cuenta de la cantidad de cosas que hacen tratandolos como si fueran personas, eso no satisface SUS necesidades, satisface las nuestras."
     ]
   },
   {
@@ -52,11 +53,51 @@
   },
   {
     "id": 6,
-    "slug": "la-correa",
-    "title": "La correa",
-    "tip": "La correa siempre va en lo más alto del cuello",
+    "slug": "el-collar",
+    "title": "El collar",
+    "tip": "El collar siempre va en lo más alto del cuello",
     "content": [
-      "Así el perro tiene menos control sobre la situación, solo cuando la correa está en lo más alto del cuello avanza cuando estamos caminando con ellos."
+      "Así el perro tiene menos control sobre la situación, cuando estamos caminando con ellos solo cuando el collar está en lo más alto del cuello avanzamos.",
+      "Si el collar se baja, paramos, lo acomodamos y seguimos.",
+      "Es más probable que el perro tire de la correa si el collar se baja y le queda en la base del cuello.",
+      "NO USES EL ARNÉS! Es una porquería, le da más control al perro, fijate que no tenés control sobre la cabeza que es lo que realmente controla a un perro, el arnés le da más control a las patas que son las que le permiten tirar.",
+      "A donde apunta la cabeza va el cuerpo.",
+      "Comprate un collar común y corriente, ese que va en el cuello y listo.",
+      "Terminemos con la aberración del arnés!. Pare de sufrir por estar a la moda!"
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "perro-asustado",
+    "title": "¿perro asustado?",
+    "tip": "Ganate la confianza de un perro asustado",
+    "content": [
+      "La primera vez no lo toques, no lo mires, no le hables.",
+      "Sentate al lado o cerca e ignoralo hasta que él se acerque.",
+      "No sientas lástima ni lo acaricies.",
+      "No invadas su espacio demasiado pronto.",
+      "Si se acerca, en vez de acariciarle la cabeza, acariciale la barbilla o la cara, evitá enfrentarlo mirandolo a los ojos, prestá atención a como reacciona a tu forma de entrar en contacto con él.",
+      "Si decide no acercarse volvé a intentarlo en otro momento. Actuar de forma fría evitando las emociones que llevan a la lástima es un desafío grande para quienes tienen sentimientos sinceros por los animales, si te pasa, pensá que es lo mejor para él."
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "manada",
+    "title": "Manada",
+    "tip": "Comportate como el líder de la manada",
+    "content": [
+      "Verlos como parte de nuestra familia los humaniza, prefiero verlos como parte de una manada.",
+      "Ellos no se vuelven un poco humanos aunque haya situaciones que pareciera que así lo hacen, nosotros nos convertimos un poco en perros.",
+      "Como líderes de la manada proyectamos un liderazgo relajado y confiado."
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "condicionamiento",
+    "title": "Condicionamiento",
+    "tip": "Prestá atención a lo que tu perro asocia con vos, con tu voz, con tu presencia, con tus acciones, con tus emociones y con su entorno",
+    "content": [
+      "Toda acción o inacción de de un perro tiene su posterior consecuencia, ya sea por lo que esa acción o inacción provoca o lo que el entorno le provoca y eso determina su posterior conducta."
     ]
   }
 ]
