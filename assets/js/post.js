@@ -1,6 +1,6 @@
 const POSTS_URL = 'data/posts.json';
 const BASE_URL = 'https://estebanzarate.github.io/in-dogs-we-trust/';
-const POST_COLORS = ['#3B71CA', '#DC4C64', '#14A44D', '#E4A11B'];
+const POST_COLORS = ['#3B71CA', '#DC4C64', '#14A44D', '#E4A11B', '#D63384', '#6F42C1', '#8B5A2B', '#E8590C', '#5C636A'];
 
 window.handleSearchQuery = function (query) {
   const q = query.trim();
