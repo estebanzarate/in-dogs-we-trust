@@ -99,5 +99,39 @@
     "content": [
       "Toda acción o inacción de de un perro tiene su posterior consecuencia, ya sea por lo que esa acción o inacción provoca o lo que el entorno le provoca y eso determina su posterior conducta."
     ]
+  },
+  {
+    "id": 10,
+    "slug": "paseo",
+    "title": "El paseo",
+    "tip": "Empieza antes de ponerle el collar",
+    "content": [
+      "No le hables ni expreses ningún tipo de emoción al empezar todo el proceso de salir a pasear. Evitá expresiones como \"vamos a pasear\" entre otras.",
+      "Enseñale a sentarse/echarse y a quedarse quieto para que esté relajado antes de siquiera ir a buscar el collar y la correa.",
+      "Por más que parezca simpático, no lo alteres ni le hagas fiesta antes de querer ponerle el collar y la correa. Apenas vayas a buscar el collar, escuche su ruido, él va a saber que va a salir a pasear y se va a empezar a alterar, cuanto antes seamos conscientes de esto podemos prevenir que se altere y hacer que se relaje primero.",
+      "Hacé que se siente/eche en el piso y espere quieto a cierta distancia de la puerta, después abrí la puerta, si cuando te acercás a abrir la puerta él se mueve hacés que se ponga a cierta distancia de la puerta de nuevo, así hasta que se quede quieto y puedas abrir la puerta sin que se acerque.",
+      "Si eso no funciona después de varios intentos, probá abrir la puerta con él al lado tuyo, nunca adelante ni él intentando salir corriendo, controlá la situación, una vez abierta la puerta quedate un ratito con él al lado, que vea que la puerta abierta no es una señal para salir corriendo.",
+      "Esperá un tiempo considerado con él al lado tuyo y la puerta abierta, ignoralo por completo y disfrutá del momento mientras esperás que se relaje, solo corregí si intenta tirar de la correa o salir corriendo.",
+      "Si hay varias puertas hasta la calle, hacé lo mismo con cada una de ellas, hasta que llegues a la calle, así el proceso se va a ir haciendo cada vez más fácil y rápido.",
+      "Una vez que veas que se sienta, que se calma un poco, si se echa es mucho mejor, entonces recién ahí salís a pasear.",
+      "Con el tiempo vas a ver que es proceso es más fácil, rápido y como influye en el comportamiento durante el paseo."
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "corregir",
+    "title": "Como corregir",
+    "tip": "Hay muchas formas de corregir",
+    "content": [
+      "La corrección de una conducta no deseada se hace en el momento en el que se produce, no lo corrijas si ya pasaron unos segundos, no va a entender por qué lo estás corrigiendo.",
+      "Un simple NO! o un SHHH! fuerte y firme es suficiente, ambas herramientas son mis preferidas y me alcanzaron para todos los casos, a medida que el perro mejore su conducta, estas van a ser más efectivas.",
+      "No repitas la correción varias veces en poco tiempo, eso lo confunde.",
+      "NUNCA lo corrijas llamandolo por el nombre, eso hace que asocie su nombre con algo negativo.",
+      "La correa es una extensión de tu cuerpo, un tirón suave de la correa es una forma de corrección y distracción para sacar su atención de lo que está haciendo.",
+      "Un toque suave pero firme en el costado del cuerpo con los dedos juntos simulando una mordida también es una forma de corrección y atrae su atención sacandolo de lo que está haciendo.",
+      "Reclamar tu espacio es una forma de correción, ya sea dando pasos hacia él o en otra dirección.",
+      "Ignorarlo también es una forma de correción.",
+      "La clave es desarrollar la capacidad de identificar lo que te funciona a vos y a tu perro, estas son simplemente formas de corrección y que a mi me funcionaron en distintas situaciones."
+    ]
   }
 ]
