@@ -1,3 +1,35 @@
+const FEATURED_KEY = 'idwt-featured-slug';
+const FEATURED_COLORS = ['#3B71CA', '#DC4C64', '#14A44D', '#E4A11B', '#D63384', '#6F42C1', '#8B5A2B', '#E8590C', '#5C636A'];
+
+function pickFeatured(posts) {
+  const stored = sessionStorage.getItem(FEATURED_KEY);
+  if (stored) {
+    const found = posts.find(p => p.slug === stored);
+    if (found) return found;
+  }
+  const pick = posts[Math.floor(Math.random() * posts.length)];
+  sessionStorage.setItem(FEATURED_KEY, pick.slug);
+  return pick;
+}
+
+function renderFeatured(post) {
+  const wrap = document.getElementById('featured-wrap');
+  if (!wrap) return;
+
+  const idx = allPosts.findIndex(p => p.id === post.id);
+  const color = FEATURED_COLORS[idx % FEATURED_COLORS.length];
+
+  wrap.innerHTML = `
+    <article class="featured-card" onclick="location.href='post.html?slug=${post.slug}'"
+      style="--featured-color:${color}" role="article">
+      <div class="featured-card__tag">Destacado</div>
+      <h2 class="featured-card__title">${post.title}</h2>
+      <p class="featured-card__excerpt">${post.tip}</p>
+      <span class="featured-card__link">Leer <span class="arrow">→</span></span>
+    </article>
+  `;
+}
+
 const POSTS_URL = 'data/posts.json';
 const POSTS_PER_PAGE = 10;
 
@@ -179,6 +211,7 @@ async function loadPosts() {
     const posts = await response.json();
 
     if (!Array.isArray(posts) || posts.length === 0) {
+      document.getElementById('featured-wrap').innerHTML = '';
       grid.innerHTML = '<div class="empty-state"><p>Pronto vas a encontrar algo acá. 🐾</p></div>';
       return;
     }
@@ -187,6 +220,7 @@ async function loadPosts() {
     allPosts = [...posts].sort((a, b) => b.id - a.id);
     currentPage = getPageFromURL();
 
+    renderFeatured(pickFeatured(allPosts));
     goToPage(currentPage, false);
 
   } catch (error) {

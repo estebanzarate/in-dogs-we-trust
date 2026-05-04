@@ -135,5 +135,26 @@
       "No tengas miedo de equivocarte, es parte del proceso de aprendizaje, todo lo que hagas mal se puede corregir, nada es definitivo.",
       "La clave es desarrollar una buena lectura del lenguaje corporal del perro."
     ]
+  },
+  {
+    "id": 12,
+    "slug": "contexto",
+    "title": "Contexto",
+    "tip": "Puede que no estés empezando de cero o con un cachorro",
+    "content": [
+      "Si llevás meses o incluso años con tu perro, es probable que ya hayas establecido conductas, hábitos y rutinas, tanto tuyas como de tu perro, que pueden ser difíciles de cambiar, pero no imposibles.",
+      "Tené en cuenta el nivel de energía, la edad, la raza y el temperamento de tu perro, así como su historia y experiencias pasadas, para adaptar tu enfoque a la hora de querer que él mejore su conducta.",
+      "PACIENCIA. Algunos resultados pueden verse rápido, en el día, otros pueden tomar varios días, semanas o meses."
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "no-tengas-un-perro",
+    "title": "No tengas un perro",
+    "tip": "Si no estás dispuesto a involucrarte no tengas un perro",
+    "content": [
+      "La mejor decisión que podés tomar es no tener un perro si no tenés los recursos, el tiempo, ganas, paciencia y compromiso.",
+      "Las plantas son una mejor opción en estos casos."
+    ]
   }
 ]
