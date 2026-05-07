@@ -156,5 +156,16 @@
       "La mejor decisión que podés tomar es no tener un perro si no tenés los recursos, el tiempo, ganas, paciencia y compromiso.",
       "Las plantas son una mejor opción en estos casos."
     ]
+  },
+  {
+    "id": 14,
+    "slug": "energia",
+    "title": "Energía",
+    "tip": "Proyectá energía serena y autoritaria",
+    "content": [
+      "Siempre que estamos con un perro, el perro está aprendiendo",
+      "Se consciente de cómo te sentís y de qué energía estás proyectando en cada interacción con tu perro",
+      "Nunca debemos pegarle a un perro, eso hace que retroceda en su aprendizaje"
+    ]
   }
 ]
